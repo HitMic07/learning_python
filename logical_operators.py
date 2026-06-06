@@ -1,0 +1,13 @@
+# USE TO CHECK TWO STATEMENT TRUE OR NOT
+# EXAMPLE: IF ANNUAL INCOME IS HIGH AND CREDIT IS GOOD THEN ELIGIBLE FOR LOAN
+
+high_income = False
+high_credit = False
+if high_income or high_credit:
+# "AND" ENSURES THAT BOTH CONDITION SATISFIED
+    print('Eligible for a loan')
+else:
+    print('Not Eligible for a loan')
+
+# USE "OR" IN WHICH IF ONLY ONE CONDITION IS TRUE IT RUN.
+# "NOT" IF WE GIVE IT TRUE BOOLEAN VALUE IT CONVERT IT TO FALSE OR VICE VERSA

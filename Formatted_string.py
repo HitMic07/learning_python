@@ -1,0 +1,7 @@
+# HAVE PREFIXED F AND USE CURLY BRACKET
+
+name = 'Omkar'
+age = '34'
+msg = f'{name} {age} is a person'
+# WE USED CURLY BRACKET TO GET THE THINGS INSIDE THE VARIABLES AND THEN JUST SIMPLE TEXT
+print(msg)

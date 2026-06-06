@@ -1,0 +1,11 @@
+print(10/3)
+print(10//3)
+# IF WE USE DOUNLE DASH IT GIVE INTEGER VLAUE
+print(10%3)
+# GIVE A REMAINDER
+print(10 **3 )
+# TAKE 3 TO POWER OF 10
+
+X = 10
+X += 5
+print(X)

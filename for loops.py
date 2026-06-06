@@ -1,0 +1,24 @@
+# THE FOR LOOP IS HAVE FORMAT FOR (NAME) IN (ITEMS TO STORED)
+# IF ITS IN "COMMA" THEN EVERYTHING GET PRINTED BUT IF IT IN "SQUARE BRACKET" NO COMMA GET PRINTED
+
+# for item in [1,2,3,4]:
+#   print(item)
+
+# WE DONT WANNA WRITE NUMBERS LIKE TILL 100 SO WE USE "RANGE" FUNCTION
+
+# for items in range(5, 10,2):
+# THE 2 HERE IS STEP FUNCTION IT MEANS THAT THERE IS GOING TO GAP OF 2.
+# OUTPUT IS 5 7 9
+#   print(items)
+
+
+# QUESTION:
+# SUM OF ALL PRICE IN CART
+
+cart = [120, 45, 95]
+total = 0
+
+for price in cart:
+    total += price
+
+print(total)  # 260
