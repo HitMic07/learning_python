@@ -1,6 +1,6 @@
 
 
-#  Learning Python — Omkar
+#  Learning Python 
 
 A collection of Python practice files written while learning programming from scratch.
 Each file contains code with comments explaining what I learned.
