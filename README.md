@@ -25,4 +25,4 @@ Each file contains code with comments explaining what I learned.
 
 ##  Status
 
-actively learning and pushing code daily.
+actively learning and pushing code daily
