@@ -1,11 +1,29 @@
-import math
+import random
+import string
 
-print(math.ceil(2.9))
-# TO GET THAT DIALOG BOX USE CTRL + SPACE
+print("Welcome to Password Generator")
+print("------------------------------")
 
+length = int(input("Enter password length: "))
 
-# GIVES THE ROUNDED VALUE
+print("Include numbers? (yes/no): ", end="")
+use_numbers = input()
 
-print(abs(-32))
+print("Include symbols? (yes/no): ", end="")
+use_symbols = input()
 
-# ACT AS MODULUS
+chars = string.ascii_letters
+
+if use_numbers == "yes":
+    chars = chars + string.digits
+
+if use_symbols == "yes":
+    chars = chars + "!@#$%&*"
+
+password = ""
+
+for i in range(length):
+    password = password + random.choice(chars)
+
+print("")
+print("Your password is:", password)
